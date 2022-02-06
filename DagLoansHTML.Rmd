@@ -61,7 +61,7 @@ meta <- read_tsv("meta_anon.tsv")
 
 # select relevant parameters from metadata file
 
-meta <- meta %>%  select(`List_ID`, Type, Code, Language, Family, Group, Glottocode, Village, District, Lat, Lon)
+meta <- meta %>%  select(`List_ID`, Type, Language, Family, Group, Glottocode, Village, District, Lat, Lon)
 
 # merge table with target words and the corresponding metadata
 
@@ -90,7 +90,16 @@ all
 ## How to cite this project
 If you use data from the database in your research, please cite as follows:
 
-Chechuro I., Daniel M., Dobrushina N., and Verhees S. 2019. Daghestanian loans words_meta. Linguistic Convergence Laboratory, HSE. [![DOI](https://zenodo.org/badge/164257298.svg)](https://zenodo.org/badge/latestdoi/164257298).)
+Chechuro I., Daniel M., and Verhees S. 2019. Daghestanian loans. Linguistic Convergence Laboratory, HSE. [![DOI](https://zenodo.org/badge/164257298.svg)](https://zenodo.org/badge/latestdoi/164257298).)
+
+## Publications
+The following articles have been as part of the DagLoans project:
+
+Daniel, M., Chechuro, I., Verhees, S., & Dobrushina, N. (2021). Lingua francas as lexical donors: Evidence from Daghestan. Language 97(3), 520-560.
+
+Chechuro, I., Daniel, M., & Verhees, S. (2021). Small-scale multilingualism through the prism of lexical borrowing. International Journal of Bilingualism, 25(4), 1019-1039.
+
+Chechuro, I. Y. (2021). Lexical convergence reflects complex historical processes. In: Grenoble, L. A., & Forker, D. (2021). Language Contact in the Territory of the Former Soviet Union, 35-57.
 
 ## The database
 
